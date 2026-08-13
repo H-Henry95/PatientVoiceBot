@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Generated call artifacts: keep the folders, ignore the contents.
+# (Commit your final chosen 10+ calls intentionally; the brief requires them.)
+recordings/*
+transcripts/*
+!recordings/.gitkeep
+!transcripts/.gitkeep
