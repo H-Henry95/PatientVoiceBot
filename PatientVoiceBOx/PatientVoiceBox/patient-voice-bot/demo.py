@@ -14,7 +14,7 @@ def print_section(title):
     print('='*60)
 
 def show_transcripts():
-    """Show all available call transcripts."""
+    """All Available Call Transcripts."""
     print_section("📞 COMPLETED TEST CALLS")
     
     transcripts_dir = Path("transcripts")
@@ -52,7 +52,7 @@ def show_transcripts():
             print(f"  End:       {last['speaker']:12} → {last['text'][:50]}...")
 
 def show_summary():
-    """Show overall system summary."""
+    """Show Overall System Summary."""
     print_section("📊 SYSTEM SUMMARY")
     
     # Count transcripts
@@ -82,7 +82,7 @@ def show_summary():
         print(f"   • {scenario}: {count} call(s)")
 
 def show_architecture():
-    """Show system architecture."""
+    """System Architecture."""
     print_section("🏗️  SYSTEM ARCHITECTURE")
     
     print("""
@@ -118,7 +118,7 @@ def main():
     show_transcripts()
     show_architecture()
     
-    print_section("✅ DEMO READY FOR PRESENTATION")
+    print_section("DEMO READY FOR PRESENTATION")
     print("""
 The system is fully operational and ready to demonstrate:
 
@@ -132,9 +132,7 @@ The system is fully operational and ready to demonstrate:
 3. Architecture: Multi-service integration
    └─ Twilio ↔ FastAPI ↔ OpenAI
    └─ Real-time audio streaming & transcription
-
-📊 Ready to show the hiring manager! 🚀
-""")
+)
 
 if __name__ == "__main__":
     main()
