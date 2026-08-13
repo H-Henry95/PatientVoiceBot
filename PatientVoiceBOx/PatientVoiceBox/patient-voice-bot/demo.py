@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Demo script to showcase the Patient Voice Bot.
+Patient Voice Bot Demo
 Shows all completed test calls, transcripts, and analysis.
 """
 
